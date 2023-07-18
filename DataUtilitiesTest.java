@@ -787,11 +787,8 @@ public class DataUtilitiesTest {
 	}
 	
 	
-	/**************************************************************************
-	 * ************************************************************************
+	/**
      * ********************** createNumberArray() test ************************
-	 * ************************************************************************
-	 * ************************************************************************
      * public static java.lang.Number[] createNumberArray(double[] data)
      * Constructs an array of Number objects from an array of double primitives
      * Parameters:
