@@ -481,11 +481,10 @@ public class RangeTest {
     
     
     /**
-     * **********************intersects () test ************************
-     * Returns a range the size of the input range, which has been moved
-     * positively (to the right) by the delta value. If allowZeroCrossing is
-     * false, any bound which crosses the zero mark after shifting (either
-     * from negative to positive or positive to negative), will become zero.
+     * ********************** shift() test ************************
+     * Returns a range the size of the input range, which has been moved positively (to the right) by the delta value.
+     * If allowZeroCrossing is false, any bound which crosses the zero mark after shifting (either from negative to
+     * positive or positive to negative), will become zero.
      * Parameters:
      * base - the base range (null not permitted).
      * delta - the shift amount.
